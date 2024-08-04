@@ -35,23 +35,6 @@ To begin your exploratory data analysis, follow these steps:
 3. **Visualization**: Create scatter plots, histograms, and other visualizations to assess nonlinearity, non-Gaussianity, and multimodality.
 4. **Dynamic Analysis**: Analyze time-series data to understand the dynamics and temporal dependencies in the dataset.
 
-## Example Code
-
-Here is a brief example of how to detect nonlinearity in a dataset using scatter plots:
-
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-
-# Load your dataset
-data = pd.read_csv('your_dataset.csv')
-
-# Create scatter plots for each pair of variables
-sns.pairplot(data)
-plt.show()
-```
-
 ## Resources
 
 - **[Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)**: Useful for implementing various data analysis techniques.
@@ -64,6 +47,7 @@ If you have suggestions or improvements, feel free to contribute to this reposit
 
 ## Nota:
 dataset from:https://github.com/giovannimen/cpcad-bench.
+
 @INPROCEEDINGS{9926420,
 
   author={Menegozzo, Giovanni and Dall’Alba, Diego and Fiorini, Paolo},
